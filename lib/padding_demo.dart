@@ -1,7 +1,7 @@
 // TODO Implement this library.
 import 'package:flutter/material.dart';
 
-class PaddinDemo extends StatelessWidget
+class PaddingDemo extends StatelessWidget
 {
   @override
   Widget build(BuildContext context)
