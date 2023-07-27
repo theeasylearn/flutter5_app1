@@ -8,5 +8,7 @@ import 'package:flutter/material.dart';
 import 'column_demo.dart';
 void main() {
   var app1 = new ColumnDemo();
-  runApp(app1);
+  runApp(MaterialApp(
+    home: app1,
+  ));
 }
