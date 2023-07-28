@@ -5,9 +5,11 @@ import 'package:flutter/material.dart';
 // import 'padding_demo.dart';
 // import 'baseline_demo.dart';
 // import 'stack_demo.dart';
-import 'column_demo.dart';
+// import 'column_demo.dart';
+// import 'row_demo.dart';
+import 'row_column_demo.dart';
 void main() {
-  var app1 = new ColumnDemo();
+  var app1 = new RowColumnDemo();
   runApp(MaterialApp(
     home: app1,
   ));
