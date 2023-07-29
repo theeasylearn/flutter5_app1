@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class RowColumnDemo extends StatelessWidget
 {
   double ImageHeight=0,ImageWidth=0;
-
   @override
   Widget build(BuildContext context) {
     ImageHeight = MediaQuery.of(context).size.height / 4;
@@ -45,7 +44,6 @@ class RowColumnDemo extends StatelessWidget
               Image.asset("images/shimla.webp",fit: BoxFit.cover,width: ImageWidth,height: ImageHeight,),
             ],
           ),
-
         ],
       ),
     );

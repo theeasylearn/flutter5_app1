@@ -7,10 +7,16 @@ import 'package:flutter/material.dart';
 // import 'stack_demo.dart';
 // import 'column_demo.dart';
 // import 'row_demo.dart';
-import 'row_column_demo.dart';
+// import 'row_column_demo.dart';
+import 'flex_demo.dart';
 void main() {
-  var app1 = new RowColumnDemo();
+  var app1 = new FlexDemo();
   runApp(MaterialApp(
-    home: app1,
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text("Expanded with demo"),
+      ),
+      body: app1,
+    ),
   ));
 }
